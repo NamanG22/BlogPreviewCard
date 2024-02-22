@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.attribution { 
+    font-weight: 800;
+    font-size: 16px; 
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.attribution a { 
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px;
+    color: hsl(47, 88%, 63%);
+
+}
+body {
+    display: grid;
+    place-content: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, "sans-serif";
+    font-size: 1.6rem;
+    height: 100vh;
+}
+.category{
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    margin-top: 25px;
+    padding: 6px 13px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.category p{
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 0;
+}
+.card{
+    margin: 20px;
+    max-width: 400px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 0 black;
+    border: 1px solid black;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+h1{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.55rem;
+}
+.publish{
+    font-weight: 500;
+    font-size: 15px;
+}
+p{
+    font-size: 16px;
+}
+.description{
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+}
+.author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.author p{
+    font-weight: 800;
+}
+.author p:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.author img{
+    width: 32px;
+    height: auto;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
